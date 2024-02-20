@@ -13,6 +13,11 @@
 		5006FDD02B0F10F300819CCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5006FDCF2B0F10F300819CCB /* Preview Assets.xcassets */; };
 		5006FDD22B0F10F300819CCB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5006FDD12B0F10F300819CCB /* Persistence.swift */; };
 		5006FDD52B0F10F300819CCB /* BlackJack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5006FDD32B0F10F300819CCB /* BlackJack.xcdatamodeld */; };
+		5006FDDD2B0F10FD00819CCB /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5006FDDC2B0F10FD00819CCB /* Card.swift */; };
+		509A20702B59FA2200A29DBB /* PersonGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A206F2B59FA2200A29DBB /* PersonGetter.swift */; };
+		509A20792B5A2C5500A29DBB /* PixelFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 509A20782B5A2C5500A29DBB /* PixelFont.ttf */; };
+		509A207B2B5A50C200A29DBB /* baby-names.csv in Resources */ = {isa = PBXBuildFile; fileRef = 509A207A2B5A50C100A29DBB /* baby-names.csv */; };
+		509A207D2B5A517100A29DBB /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A207C2B5A517100A29DBB /* CSV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		5006FDD12B0F10F300819CCB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5006FDD42B0F10F300819CCB /* BlackJack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlackJack.xcdatamodel; sourceTree = "<group>"; };
 		5006FDD62B0F10F300819CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5006FDDC2B0F10FD00819CCB /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		509A206F2B59FA2200A29DBB /* PersonGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonGetter.swift; sourceTree = "<group>"; };
+		509A20782B5A2C5500A29DBB /* PixelFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PixelFont.ttf; sourceTree = "<group>"; };
+		509A207A2B5A50C100A29DBB /* baby-names.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "baby-names.csv"; sourceTree = "<group>"; };
+		509A207C2B5A517100A29DBB /* CSV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				5006FDC82B0F10F100819CCB /* BlackJackApp.swift */,
 				5006FDCA2B0F10F100819CCB /* ContentView.swift */,
+				5006FDDC2B0F10FD00819CCB /* Card.swift */,
 				5006FDCC2B0F10F300819CCB /* Assets.xcassets */,
 				5006FDD12B0F10F300819CCB /* Persistence.swift */,
 				5006FDD62B0F10F300819CCB /* Info.plist */,
 				5006FDD32B0F10F300819CCB /* BlackJack.xcdatamodeld */,
 				5006FDCE2B0F10F300819CCB /* Preview Content */,
+				509A206F2B59FA2200A29DBB /* PersonGetter.swift */,
+				509A20782B5A2C5500A29DBB /* PixelFont.ttf */,
+				509A207A2B5A50C100A29DBB /* baby-names.csv */,
+				509A207C2B5A517100A29DBB /* CSV.swift */,
 			);
 			path = BlackJack;
 			sourceTree = "<group>";
@@ -133,8 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509A20792B5A2C5500A29DBB /* PixelFont.ttf in Resources */,
 				5006FDD02B0F10F300819CCB /* Preview Assets.xcassets in Resources */,
 				5006FDCD2B0F10F300819CCB /* Assets.xcassets in Resources */,
+				509A207B2B5A50C200A29DBB /* baby-names.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,10 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5006FDDD2B0F10FD00819CCB /* Card.swift in Sources */,
 				5006FDD52B0F10F300819CCB /* BlackJack.xcdatamodeld in Sources */,
 				5006FDD22B0F10F300819CCB /* Persistence.swift in Sources */,
 				5006FDCB2B0F10F100819CCB /* ContentView.swift in Sources */,
 				5006FDC92B0F10F100819CCB /* BlackJackApp.swift in Sources */,
+				509A207D2B5A517100A29DBB /* CSV.swift in Sources */,
+				509A20702B59FA2200A29DBB /* PersonGetter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
